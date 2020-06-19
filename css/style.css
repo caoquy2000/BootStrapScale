@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.6rem; 
+}
+.bg-black{
+    background-color: black;
+}
+.container{
+    /* padding: 0; */
+}
+/* -------------------------------------- */
+#navFirst{
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+#navFirst.scrolling{
+    background-color: white;
+}
+.scrolling .logo a{
+    color: black !important;
+}
+.mainNav{
+    padding: 3.2rem 2.4rem;
+}
+.navbar-light.navbar-nav.nav-link{
+  color:  rgba(0, 0, 0, 0.72);
+}
+.logo a{
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.5)!important;
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+}
+.link__nav a{
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.4)!important;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+}
+.firstMenu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: block;
+    background-color: white;
+   
+}
+
+.Pic{
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url(../img/bg-masthead.jpg);
+}
+.Pic h1{
+    font-family: "Varela Round", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 10rem;
+    line-height: 10rem;
+    letter-spacing: 1rem;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.Pic h2{
+    font-size: 1.25rem;
+    max-width: 30rem;
+    padding-bottom: 3rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.6rem;
+}
+.btn{
+    font-size: 80%;
+    padding: 1.25rem 2rem;
+    letter-spacing: 0.2rem;
+}
+.buttonOne{
+    background-color: #64a19d;
+    border: #64a19d;
+}
+/* ============================================ */
+.form-block{
+    padding: 5rem 10rem;
+    background-color:rgba(185, 184, 184, 0.116);
+}
+.form-control{
+    font-size: 1.6rem;
+}
+label{
+    font-size: 2rem;
+}
+.form-check-input{
+    margin-top: 0.8rem;
+}
+/* ============================================ */
+.about__section{
+    border-top: 1px solid rgba(0, 0, 0, 0.01) !important;
+    padding-top: 10rem;
+    background: linear-gradient(to bottom, #000000, #101010, #1a1a1a, #232323, #2d2d2d);
+}
+.about__section p{
+    margin-bottom: 8rem;
+    color: rgba(255, 255, 255, 0.377);
+}
+.content__first{
+    position: relative;
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+.content__first h2{
+    font-size: 3.6rem;
+}
+.content__first p{
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+/* =========================================== */
+.content__section{
+    padding-top: 0rem;
+    padding-bottom: 10rem;
+}
+.img{
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+.content__section p{
+    letter-spacing: 0.1rem;
+}
+.content__section h4{
+    font-size: 3.2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.caihinhdep{
+    border-left: 0.5rem solid #64a19d;
+}
+.text__content{
+    background: black;
+}
+.container{
+    /* padding: 0; */
+}
+.after hr{
+    border-bottom: 0.25rem solid #64a19d;
+    width: 30%;
+}
+.sign__up{
+    padding: 10rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url(../img/bg-signup.jpg);
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fa-2x{
+    font-size: 2rem;
+}
+.svg-inline--fa.fa-w-16 {
+   width: 1rem;
+
+}
+/* .icon-block a{
+    width: 100% !important;
+    height: 100%;
+    display: block;
+    padding: 0.5rem;
+    margin: 0 !important;
+} */
+.form-inline input{
+    padding: 1.5rem 2rem;
+    height: auto;
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    border: 0;
+}
+.form-inline button{
+    padding: 1.5rem 2.5rem;
+    text-transform: uppercase;
+    
+}
+.product__ag{
+    padding: 0;
+}
+.contact-section{
+    background-color: black;
+    padding-top: 5rem;
+}
+.card{
+    border: 0;
+    border-bottom: 0.25rem solid #64a19d;
+}
+.card-body{
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    line-height: 4rem;
+}
+.svg-inline--fa.fa-w-18 {
+    width: 2.6rem;
+}
+.svg-inline--fa.fa-w-16 {
+    width: 2.6rem;
+}
+.svg-inline--fa.fa-w-10 {
+    width: 2.6rem ;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 0.5rem;
+}
+.card h4{
+    font-size: 1.8rem;
+    letter-spacing: 0.15rem;
+}
+.card hr{
+    border-color: #64a19d;
+    border-width: 0.25rem;
+    width: 4rem;
+    margin: 0 auto;
+}
+.small{
+    font-size: 80%;
+    font-weight: 400;
+}
+.small a{
+    color: #64a19d;
+}
+.text-primary {
+    color: #64a19d !important;
+}
+.social{
+    margin-top: 5rem;
+}
+
+.icon-block{
+    text-align: center;
+    height: 4rem;
+    width: 4rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    line-height: 3rem;
+    color: rgba(255, 255, 255, 0.3);
+    margin-bottom: 0.5rem;
+}
+
+.icon-block a{
+    width: 4rem !important;
+    height: 4rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-block:nth-child(1):hover a .icon__contact{
+    color: #1da1f2;
+}
+.icon-block:nth-child(2):hover a .icon__contact{
+    color: #4267b2;
+}
+.icon-block:nth-child(3):hover a .icon__contact{
+    color: black;
+}
+.icon-block:nth-child(1):hover a{
+    background-color: white;
+    border-radius: 50%;
+    border: 0.5px solid #1da1f2;
+}
+.icon-block:nth-child(2):hover a{
+    background-color: white;
+    border-radius: 50%;
+    border: 0.5px solid #4267b2;
+}
+.icon-block:nth-child(3):hover a{
+    background-color: white;
+    border-radius: 50%;
+    border: 0.5px solid black;
+}
+.icon-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon__contact{
+    width: 4rem !important;
+    height: 4rem !important;
+    text-align: center ;
+    padding: 0.5rem;
+    color: gray;
+}
+
+.footer{
+    background-color: black;
+    height: 20rem !important;
+}
+.finish{
+    color: rgba(255, 255, 255, 0.3);
+}
+.div__footer{
+    height: 20rem;
+}
+.product__ag {
+    background-color: black;
+}
+@media only screen and (max-width: 985px){
+    .caihinhdep{
+        border-left: 0;
+        padding-left: 0 !important;
+    }
+    .content-reponsive{
+        flex-wrap: nowrap !important;
+    }
+    .img-reponsive{
+        margin-bottom: 0 !important;
+    }
+    #navFirst{
+        background-color: white;
+    }
+    #navFirst .nav-link{
+        padding-left: 3rem;
+    }
+    .logo a{
+        color: black !important;
+    }
+    .Pic h1{
+        font-size: 5rem;
+    }
+}
+@media only screen and (max-width: 600px){
+    .Pic h1{
+        font-size: 3rem;
+    }
+    .form-block{
+        padding: 0;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .content-reponsive{
+        flex-wrap: wrap !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    .layout-reponsive{
+        padding-left: 0 !important;
+    }
+    .img{
+        padding-right: 0 !important;
+    }
+    .content__section{
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    .content__section__reponsive{
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    .text__reponsive{
+        font-size: 3rem;
+    }
+    .svg-inline--fa.fa-w-16 {
+        width: 3rem;
+    }
+    .svg-inline--fa.fa-w-18 {
+        width: 3rem;
+    }
+    .svg-inline--fa.fa-w-10 {
+        width: 3rem;
+    }
+    .navbar-toggler{
+        padding: 0.5rem 1rem;
+    }
+    .menupro{
+       margin: 1.6rem;
+       margin-right: 3.5rem;
+    }
+}
+.menu-btn{
+    font-size: 3rem !important ;
+}
