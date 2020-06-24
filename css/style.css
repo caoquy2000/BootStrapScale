@@ -38,6 +38,7 @@ body{
 }
 #navFirst.scrolling{
     background-color: white;
+    height: 5rem;
 }
 .scrolling .logo a{
     color: black !important;
@@ -542,6 +543,10 @@ textarea {
     }
     #navFirst{
         background-color: white;
+        height: 5rem;
+    }
+    .mainNav{
+        padding: 0;
     }
     #navFirst .nav-link{
         padding-left: 3rem;
@@ -603,6 +608,17 @@ textarea {
     }
     .title-contact a {
         margin-top: 10rem;
+    }
+    #navFirst{
+        background-color: white;
+        height: 6rem;
+    }
+    .mainNav{
+        padding: 0;
+    }
+    .menupro{
+        margin: 0;
+        margin-right: 3.5rem;
     }
 }
 .menu-btn{
